@@ -7,7 +7,7 @@
   <title>Md Amanulla — Senior Game Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,12 +17,12 @@
   <header class="nav">
     <a class="brand" href="#top">AMANULLA<span>.DEV</span></a>
     <nav>
-      <a href="#experience">EXP</a>
-      <a href="#education">EDU</a>
-      <a href="#skills">SKILLS</a>
-      <a href="#work">WORK</a>
-      <a href="#awards">AWARDS</a>
-      <a href="#contact">CONTACT</a>
+      <a href="#work">Selected work</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Expertise</a>
+      <a href="#awards">Recognition</a>
+      <a href="#contact">Contact</a>
     </nav>
     <a class="nav-resume" href="https://drive.google.com/file/d/1D7ehYZx98PR3gXpWPNW29OIiCsJ5ZbO0/view?usp=share_link" target="_blank" rel="noopener">RESUME</a>
     <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
@@ -42,12 +42,13 @@
     <section class="hero">
       <div class="hero-main">
         <p class="status-pill"><span class="pulse"></span> Available for opportunities</p>
-        <h1>Md Amanulla</h1>
+        <p class="hero-eyebrow">MD AMANULLA / GAME DEVELOPER</p>
+        <h1>Built to play.<br><span>Made to last.</span></h1>
         <p class="hero-title">Senior Unity Game Developer · <a href="https://play-noob.com/" target="_blank" rel="noopener">PlayNoob</a></p>
-        <p class="lead">I build and ship mobile gameplay systems, tools, UI, and performance work across live titles.</p>
+        <p class="lead">From the first prototype to the next million players. I build mobile gameplay, production tools, and the performance that makes it all feel effortless.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="mailto:mdamanulla44@gmail.com">Get in touch</a>
-          <a class="btn ghost" href="#work">View work</a>
+          <a class="btn primary" href="mailto:mdamanulla44@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
+          <a class="btn ghost" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
           <a class="btn ghost" href="https://drive.google.com/file/d/1D7ehYZx98PR3gXpWPNW29OIiCsJ5ZbO0/view?usp=share_link" target="_blank" rel="noopener">Resume</a>
         </div>
         <div class="hero-stats">
@@ -58,7 +59,12 @@
       </div>
 
       <aside class="profile-card">
-        <p class="profile-kicker">Professional profile</p>
+        <div class="game-gallery" aria-label="Selected shipped games">
+          <a href="#work-holeIt3d"><img src="assets/icons/hole-it-3d.jpg" alt="Hole It 3D!" width="120" height="120"></a>
+          <a href="#work-tileJam3d"><img src="assets/icons/tile-jam-3d.jpg" alt="Tile Jam 3D" width="120" height="120"></a>
+          <a href="#work-jurassicSniper3d"><img src="assets/icons/jurassic-sniper-3d.jpg" alt="Jurassic Sniper 3D" width="120" height="120"></a>
+        </div>
+        <p class="profile-kicker">Behind the gameplay</p>
         <div class="profile-top">
           <div class="avatar" aria-hidden="true">AM</div>
           <div>
@@ -90,6 +96,136 @@
           <a href="https://github.com/amanulla-47" target="_blank" rel="noopener">GitHub</a>
         </div>
       </aside>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-label">Industry Work</div>
+      <div class="section-head">
+        <h2>Games out in the world.</h2>
+        <p>A selection of live mobile titles. Explore the gameplay and the systems behind it.</p>
+      </div>
+      <div class="work-grid">
+        <article class="work-card reveal" id="work-holeIt3d" data-game="holeIt3d">
+          <div class="video-card" data-video="HG1sT4EAWOY">
+            <img class="video-thumb" src="https://img.youtube.com/vi/HG1sT4EAWOY/hqdefault.jpg" alt="Hole It 3D" loading="lazy">
+            <span class="stat-badge">1M+ downloads</span>
+            <button type="button" class="play-btn" aria-label="Play Hole It 3D"><span></span></button>
+          </div>
+          <div class="work-info">
+            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Puzzle</span></div>
+            <h3>Hole It 3D!</h3>
+            <p>Gameplay improvements, optimization, level builder, and UI.</p>
+            <a class="card-link" href="https://apps.apple.com/vn/app/hole-it-3d/id6740699102" target="_blank" rel="noopener">App Store <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal" id="work-fallInHole" data-game="fallInHole">
+          <div class="video-card" data-video="Edc83P7kTvA">
+            <img class="video-thumb" src="https://img.youtube.com/vi/Edc83P7kTvA/hqdefault.jpg" alt="Fall in Hole" loading="lazy">
+            <button type="button" class="play-btn" aria-label="Play Fall in Hole"><span></span></button>
+          </div>
+          <div class="work-info">
+            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Hyper-casual</span></div>
+            <h3>Fall in Hole!</h3>
+            <p>Core gameplay mechanics designed and built from scratch.</p>
+            <a class="card-link" href="https://apps.apple.com/vn/app/fall-in-hole/id6752026800" target="_blank" rel="noopener">App Store <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal" id="work-tileJam3d" data-game="tileJam3d">
+          <div class="video-card" data-video="txyOPd8rXco">
+            <img class="video-thumb" src="https://img.youtube.com/vi/txyOPd8rXco/hqdefault.jpg" alt="Tile Jam 3D" loading="lazy">
+            <span class="stat-badge">500K+ downloads</span>
+            <button type="button" class="play-btn" aria-label="Play Tile Jam 3D"><span></span></button>
+          </div>
+          <div class="work-info">
+            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Match</span></div>
+            <h3>Tile Jam 3D</h3>
+            <p>Core gameplay mechanics designed and built from scratch.</p>
+            <a class="card-link" href="https://apps.apple.com/us/app/tile-jam-3d/id6480384280" target="_blank" rel="noopener">App Store <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal" id="work-stackMerge" data-game="stackMerge">
+          <div class="video-card" data-video="1FtWhm8w-ns">
+            <img class="video-thumb" src="https://img.youtube.com/vi/1FtWhm8w-ns/hqdefault.jpg" alt="Stack Merge" loading="lazy">
+            <span class="stat-badge">1M+ downloads</span>
+            <button type="button" class="play-btn" aria-label="Play Stack Merge"><span></span></button>
+          </div>
+          <div class="work-info">
+            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Merge</span></div>
+            <h3>Stack Merge</h3>
+            <p>Gameplay systems designed and developed from scratch.</p>
+            <a class="card-link" href="https://apps.apple.com/us/app/stack-merge/id6478578678" target="_blank" rel="noopener">App Store <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal" id="work-waterJam3d" data-game="waterJam3d">
+          <div class="video-card" data-video="eKQ-DSdAGeQ">
+            <img class="video-thumb" src="https://img.youtube.com/vi/eKQ-DSdAGeQ/hqdefault.jpg" alt="Water Jam 3D" loading="lazy">
+            <button type="button" class="play-btn" aria-label="Play Water Jam 3D"><span></span></button>
+          </div>
+          <div class="work-info">
+            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Puzzle</span></div>
+            <h3>Water Jam 3D</h3>
+            <p>Core gameplay mechanics with polish and iteration.</p>
+            <a class="card-link" href="https://apps.apple.com/us/app/water-jam/id6605929829" target="_blank" rel="noopener">App Store <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal" id="work-carMatch3d" data-game="carMatch3d">
+          <div class="video-card" data-video="0i3nJHRJL4A">
+            <img class="video-thumb" src="https://img.youtube.com/vi/0i3nJHRJL4A/hqdefault.jpg" alt="Car Match 3D" loading="lazy">
+            <button type="button" class="play-btn" aria-label="Play Car Match 3D"><span></span></button>
+          </div>
+          <div class="work-info">
+            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Match</span></div>
+            <h3>Car Match 3D</h3>
+            <p>Core gameplay mechanics designed and built from scratch.</p>
+            <a class="card-link" href="https://apps.apple.com/us/app/car-match-3d/id6738652189" target="_blank" rel="noopener">App Store <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal" id="work-dashFight" data-game="dashFight">
+          <div class="video-card" data-video="mqnNkWRYDdc">
+            <img class="video-thumb" src="https://img.youtube.com/vi/mqnNkWRYDdc/hqdefault.jpg" alt="Dash Fight" loading="lazy">
+            <button type="button" class="play-btn" aria-label="Play Dash Fight"><span></span></button>
+          </div>
+          <div class="work-info">
+            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Action</span></div>
+            <h3>Dash Fight</h3>
+            <p>Gameplay development, iteration, and polish.</p>
+          </div>
+        </article>
+
+        <article class="work-card reveal" id="work-sharkAttack3d" data-game="sharkAttack3d">
+          <div class="video-card" data-video="8qV3oALv3uU">
+            <img class="video-thumb" src="https://img.youtube.com/vi/8qV3oALv3uU/hqdefault.jpg" alt="Shark Attack 3D" loading="lazy">
+            <span class="stat-badge">5M+ downloads</span>
+            <button type="button" class="play-btn" aria-label="Play Shark Attack 3D"><span></span></button>
+          </div>
+          <div class="work-info">
+            <div class="work-top"><span class="studio">Free Pixel</span><span class="genre">Action</span></div>
+            <h3>Shark Attack 3D</h3>
+            <p>Core gameplay, UI, SQLite data, and load/memory optimization.</p>
+            <a class="card-link" href="https://apps.apple.com/us/app/shark-attack-simulator-games/id1489941954" target="_blank" rel="noopener">App Store <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal" id="work-jurassicSniper3d" data-game="jurassicSniper3d">
+          <div class="video-card" data-video="OHmhPAWJg6c">
+            <img class="video-thumb" src="https://img.youtube.com/vi/OHmhPAWJg6c/hqdefault.jpg" alt="Jurassic Sniper 3D" loading="lazy">
+            <span class="stat-badge">1M+ downloads</span>
+            <button type="button" class="play-btn" aria-label="Play Jurassic Sniper 3D"><span></span></button>
+          </div>
+          <div class="work-info">
+            <div class="work-top"><span class="studio">Free Pixel</span><span class="genre">Shooter</span></div>
+            <h3>Jurassic Sniper 3D</h3>
+            <p>Lead gameplay, UI systems, SQLite data, and performance work.</p>
+            <a class="card-link" href="https://apps.apple.com/us/app/jurassic-sniper-3d/id1535441769" target="_blank" rel="noopener">App Store <span>↗</span></a>
+          </div>
+        </article>
+      </div>
     </section>
 
     <section id="experience" class="section">
@@ -279,136 +415,6 @@
         <article class="skill-card reveal"><h3>Playables</h3><p>Luna playable ads, WebGL constraints, tight runtime budgets</p></article>
         <article class="skill-card reveal"><h3>Platforms</h3><p>iOS, Android, App Store shipping, production builds</p></article>
         <article class="skill-card reveal"><h3>Dev Tools</h3><p>Git, Unity Profiler, Rider / VS, collaborative sprint workflows</p></article>
-      </div>
-    </section>
-
-    <section id="work" class="section">
-      <div class="section-label">Industry Work</div>
-      <div class="section-head">
-        <h2>Shipped Titles</h2>
-        <p>Commercial mobile games with in-card gameplay. Click play to watch.</p>
-      </div>
-      <div class="work-grid">
-        <article class="work-card reveal" id="work-holeIt3d" data-game="holeIt3d">
-          <div class="video-card" data-video="HG1sT4EAWOY">
-            <img class="video-thumb" src="https://img.youtube.com/vi/HG1sT4EAWOY/hqdefault.jpg" alt="Hole It 3D" loading="lazy">
-            <span class="stat-badge">1M+ downloads</span>
-            <button type="button" class="play-btn" aria-label="Play Hole It 3D"><span></span></button>
-          </div>
-          <div class="work-info">
-            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Puzzle</span></div>
-            <h3>Hole It 3D!</h3>
-            <p>Gameplay improvements, optimization, level builder, and UI.</p>
-            <a class="card-link" href="https://apps.apple.com/vn/app/hole-it-3d/id6740699102" target="_blank" rel="noopener">App Store <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="work-card reveal" id="work-fallInHole" data-game="fallInHole">
-          <div class="video-card" data-video="Edc83P7kTvA">
-            <img class="video-thumb" src="https://img.youtube.com/vi/Edc83P7kTvA/hqdefault.jpg" alt="Fall in Hole" loading="lazy">
-            <button type="button" class="play-btn" aria-label="Play Fall in Hole"><span></span></button>
-          </div>
-          <div class="work-info">
-            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Hyper-casual</span></div>
-            <h3>Fall in Hole!</h3>
-            <p>Core gameplay mechanics designed and built from scratch.</p>
-            <a class="card-link" href="https://apps.apple.com/vn/app/fall-in-hole/id6752026800" target="_blank" rel="noopener">App Store <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="work-card reveal" id="work-tileJam3d" data-game="tileJam3d">
-          <div class="video-card" data-video="txyOPd8rXco">
-            <img class="video-thumb" src="https://img.youtube.com/vi/txyOPd8rXco/hqdefault.jpg" alt="Tile Jam 3D" loading="lazy">
-            <span class="stat-badge">500K+ downloads</span>
-            <button type="button" class="play-btn" aria-label="Play Tile Jam 3D"><span></span></button>
-          </div>
-          <div class="work-info">
-            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Match</span></div>
-            <h3>Tile Jam 3D</h3>
-            <p>Core gameplay mechanics designed and built from scratch.</p>
-            <a class="card-link" href="https://apps.apple.com/us/app/tile-jam-3d/id6480384280" target="_blank" rel="noopener">App Store <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="work-card reveal" id="work-stackMerge" data-game="stackMerge">
-          <div class="video-card" data-video="1FtWhm8w-ns">
-            <img class="video-thumb" src="https://img.youtube.com/vi/1FtWhm8w-ns/hqdefault.jpg" alt="Stack Merge" loading="lazy">
-            <span class="stat-badge">1M+ downloads</span>
-            <button type="button" class="play-btn" aria-label="Play Stack Merge"><span></span></button>
-          </div>
-          <div class="work-info">
-            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Merge</span></div>
-            <h3>Stack Merge</h3>
-            <p>Gameplay systems designed and developed from scratch.</p>
-            <a class="card-link" href="https://apps.apple.com/us/app/stack-merge/id6478578678" target="_blank" rel="noopener">App Store <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="work-card reveal" id="work-waterJam3d" data-game="waterJam3d">
-          <div class="video-card" data-video="eKQ-DSdAGeQ">
-            <img class="video-thumb" src="https://img.youtube.com/vi/eKQ-DSdAGeQ/hqdefault.jpg" alt="Water Jam 3D" loading="lazy">
-            <button type="button" class="play-btn" aria-label="Play Water Jam 3D"><span></span></button>
-          </div>
-          <div class="work-info">
-            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Puzzle</span></div>
-            <h3>Water Jam 3D</h3>
-            <p>Core gameplay mechanics with polish and iteration.</p>
-            <a class="card-link" href="https://apps.apple.com/us/app/water-jam/id6605929829" target="_blank" rel="noopener">App Store <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="work-card reveal" id="work-carMatch3d" data-game="carMatch3d">
-          <div class="video-card" data-video="0i3nJHRJL4A">
-            <img class="video-thumb" src="https://img.youtube.com/vi/0i3nJHRJL4A/hqdefault.jpg" alt="Car Match 3D" loading="lazy">
-            <button type="button" class="play-btn" aria-label="Play Car Match 3D"><span></span></button>
-          </div>
-          <div class="work-info">
-            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Match</span></div>
-            <h3>Car Match 3D</h3>
-            <p>Core gameplay mechanics designed and built from scratch.</p>
-            <a class="card-link" href="https://apps.apple.com/us/app/car-match-3d/id6738652189" target="_blank" rel="noopener">App Store <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="work-card reveal" id="work-dashFight" data-game="dashFight">
-          <div class="video-card" data-video="mqnNkWRYDdc">
-            <img class="video-thumb" src="https://img.youtube.com/vi/mqnNkWRYDdc/hqdefault.jpg" alt="Dash Fight" loading="lazy">
-            <button type="button" class="play-btn" aria-label="Play Dash Fight"><span></span></button>
-          </div>
-          <div class="work-info">
-            <div class="work-top"><span class="studio">PlayNoob</span><span class="genre">Action</span></div>
-            <h3>Dash Fight</h3>
-            <p>Gameplay development, iteration, and polish.</p>
-          </div>
-        </article>
-
-        <article class="work-card reveal" id="work-sharkAttack3d" data-game="sharkAttack3d">
-          <div class="video-card" data-video="8qV3oALv3uU">
-            <img class="video-thumb" src="https://img.youtube.com/vi/8qV3oALv3uU/hqdefault.jpg" alt="Shark Attack 3D" loading="lazy">
-            <span class="stat-badge">5M+ downloads</span>
-            <button type="button" class="play-btn" aria-label="Play Shark Attack 3D"><span></span></button>
-          </div>
-          <div class="work-info">
-            <div class="work-top"><span class="studio">Free Pixel</span><span class="genre">Action</span></div>
-            <h3>Shark Attack 3D</h3>
-            <p>Core gameplay, UI, SQLite data, and load/memory optimization.</p>
-            <a class="card-link" href="https://apps.apple.com/us/app/shark-attack-simulator-games/id1489941954" target="_blank" rel="noopener">App Store <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="work-card reveal" id="work-jurassicSniper3d" data-game="jurassicSniper3d">
-          <div class="video-card" data-video="OHmhPAWJg6c">
-            <img class="video-thumb" src="https://img.youtube.com/vi/OHmhPAWJg6c/hqdefault.jpg" alt="Jurassic Sniper 3D" loading="lazy">
-            <span class="stat-badge">1M+ downloads</span>
-            <button type="button" class="play-btn" aria-label="Play Jurassic Sniper 3D"><span></span></button>
-          </div>
-          <div class="work-info">
-            <div class="work-top"><span class="studio">Free Pixel</span><span class="genre">Shooter</span></div>
-            <h3>Jurassic Sniper 3D</h3>
-            <p>Lead gameplay, UI systems, SQLite data, and performance work.</p>
-            <a class="card-link" href="https://apps.apple.com/us/app/jurassic-sniper-3d/id1535441769" target="_blank" rel="noopener">App Store <span>↗</span></a>
-          </div>
-        </article>
       </div>
     </section>
 
