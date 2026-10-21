@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T03:02:36.181Z",
+  "lastUpdated": "2026-10-21T10:46:32.047Z",
   "games": {
     "holeIt3d": {
       "title": "Hole It 3D!",
@@ -13,7 +13,7 @@
           "country": "vn",
           "ratingCount": 788,
           "averageRating": 4.58,
-          "version": "1.31.17",
+          "version": "1.32.08",
           "estimatedMinInstalls": 23640,
           "downloadsBracket": "10K+"
         }
