@@ -1,0 +1,221 @@
+{
+  "lastUpdated": "2026-10-21T03:02:36.181Z",
+  "games": {
+    "holeIt3d": {
+      "title": "Hole It 3D!",
+      "downloads": "1M+",
+      "milestoneValue": 1000000,
+      "premium": true,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "6740699102",
+          "country": "vn",
+          "ratingCount": 788,
+          "averageRating": 4.58,
+          "version": "1.31.17",
+          "estimatedMinInstalls": 23640,
+          "downloadsBracket": "10K+"
+        }
+      ]
+    },
+    "sharkAttack3d": {
+      "title": "Shark Attack 3D",
+      "downloads": "5M+",
+      "milestoneValue": 5000000,
+      "premium": true,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "1489941954",
+          "country": "us",
+          "ratingCount": 10043,
+          "averageRating": 4.45,
+          "version": "8.03",
+          "estimatedMinInstalls": 301290,
+          "downloadsBracket": "100K+"
+        }
+      ]
+    },
+    "jurassicSniper3d": {
+      "title": "Jurassic Sniper 3D",
+      "downloads": "1M+",
+      "milestoneValue": 1000000,
+      "premium": true,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "1535441769",
+          "country": "us",
+          "ratingCount": 12334,
+          "averageRating": 4.61,
+          "version": "8.01",
+          "estimatedMinInstalls": 370020,
+          "downloadsBracket": "100K+"
+        }
+      ]
+    },
+    "stackMerge": {
+      "title": "Stack Merge",
+      "downloads": "1K+",
+      "milestoneValue": 1000,
+      "premium": false,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "6478578678",
+          "country": "us",
+          "ratingCount": 0,
+          "averageRating": null,
+          "version": "1.2",
+          "estimatedMinInstalls": 0,
+          "downloadsBracket": null
+        }
+      ]
+    },
+    "tileJam3d": {
+      "title": "Tile Jam 3D",
+      "downloads": "1K+",
+      "milestoneValue": 1000,
+      "premium": false,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "6480384280",
+          "country": "us",
+          "ratingCount": 3,
+          "averageRating": 4.67,
+          "version": "1.4",
+          "estimatedMinInstalls": 90,
+          "downloadsBracket": null
+        }
+      ]
+    },
+    "fallInHole": {
+      "title": "Fall in Hole!",
+      "downloads": "Live",
+      "milestoneValue": 0,
+      "premium": false,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "6752026800",
+          "country": "vn",
+          "ratingCount": 3,
+          "averageRating": 4.33,
+          "version": "1.11.04",
+          "estimatedMinInstalls": 90,
+          "downloadsBracket": null
+        }
+      ]
+    },
+    "waterJam3d": {
+      "title": "Water Jam 3D",
+      "downloads": "Live",
+      "milestoneValue": 0,
+      "premium": false,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "6605929829",
+          "country": "us",
+          "ratingCount": 0,
+          "averageRating": null,
+          "version": "1.1",
+          "estimatedMinInstalls": 0,
+          "downloadsBracket": null
+        }
+      ]
+    },
+    "carMatch3d": {
+      "title": "Car Match 3D",
+      "downloads": "Live",
+      "milestoneValue": 0,
+      "premium": false,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "6738652189",
+          "country": "us",
+          "ratingCount": 0,
+          "averageRating": null,
+          "version": "1.1",
+          "estimatedMinInstalls": 0,
+          "downloadsBracket": null
+        }
+      ]
+    },
+    "dashFight": {
+      "title": "Dash Fight",
+      "downloads": "Prototype",
+      "milestoneValue": 0,
+      "premium": false,
+      "stores": []
+    },
+    "policeVsThief": {
+      "title": "Police vs Thief",
+      "downloads": "500K+",
+      "milestoneValue": 500000,
+      "premium": false,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "1542502766",
+          "country": "us",
+          "ratingCount": 11274,
+          "averageRating": 4.46,
+          "version": "8.03",
+          "estimatedMinInstalls": 338220,
+          "downloadsBracket": "100K+"
+        }
+      ]
+    },
+    "superCop3d": {
+      "title": "Super Cop 3D",
+      "downloads": "500K+",
+      "milestoneValue": 500000,
+      "premium": false,
+      "stores": [
+        {
+          "store": "app_store",
+          "appId": "1484654087",
+          "country": "us",
+          "ratingCount": 230,
+          "averageRating": 4.64,
+          "version": "1.31",
+          "estimatedMinInstalls": 6900,
+          "downloadsBracket": "5K+"
+        }
+      ]
+    },
+    "duoCrimeSquad": {
+      "title": "Duo Crime Squad",
+      "downloads": "10K+",
+      "milestoneValue": 10000,
+      "premium": false,
+      "stores": [
+        {
+          "store": "google_play",
+          "packageId": "com.manabreak.duocrimesquad",
+          "installsValue": 10000,
+          "exactInstalls": 11758,
+          "downloadsBracket": "10K+"
+        }
+      ]
+    },
+    "artilleryFrenzy": {
+      "title": "Artillery-Frenzy",
+      "downloads": "Live",
+      "milestoneValue": 0,
+      "premium": false,
+      "stores": []
+    },
+    "voxelDashRace": {
+      "title": "Voxel Dash Race",
+      "downloads": "R&D",
+      "milestoneValue": 0,
+      "premium": false,
+      "stores": []
+    }
+  }
+}
