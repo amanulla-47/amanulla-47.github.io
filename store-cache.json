@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T09:57:16.861Z",
+  "lastUpdated": "2026-10-25T10:19:33.194Z",
   "games": {
     "holeIt3d": {
       "title": "Hole It 3D!",
@@ -11,10 +11,10 @@
           "store": "app_store",
           "appId": "6740699102",
           "country": "vn",
-          "ratingCount": 791,
-          "averageRating": 4.58,
+          "ratingCount": 797,
+          "averageRating": 4.57,
           "version": "1.32.08",
-          "estimatedMinInstalls": 23730,
+          "estimatedMinInstalls": 23910,
           "downloadsBracket": "10K+"
         }
       ]
@@ -47,10 +47,10 @@
           "store": "app_store",
           "appId": "1535441769",
           "country": "us",
-          "ratingCount": 12335,
+          "ratingCount": 12337,
           "averageRating": 4.61,
           "version": "8.01",
-          "estimatedMinInstalls": 370050,
+          "estimatedMinInstalls": 370110,
           "downloadsBracket": "100K+"
         }
       ]
@@ -198,7 +198,7 @@
           "store": "google_play",
           "packageId": "com.manabreak.duocrimesquad",
           "installsValue": 10000,
-          "exactInstalls": 11759,
+          "exactInstalls": 11760,
           "downloadsBracket": "10K+"
         }
       ]
