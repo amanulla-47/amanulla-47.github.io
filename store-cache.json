@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T11:12:51.382Z",
+  "lastUpdated": "2026-10-28T11:46:33.303Z",
   "games": {
     "holeIt3d": {
       "title": "Hole It 3D!",
@@ -29,10 +29,10 @@
           "store": "app_store",
           "appId": "1489941954",
           "country": "us",
-          "ratingCount": 10042,
+          "ratingCount": 10044,
           "averageRating": 4.45,
           "version": "8.03",
-          "estimatedMinInstalls": 301260,
+          "estimatedMinInstalls": 301320,
           "downloadsBracket": "100K+"
         }
       ]
