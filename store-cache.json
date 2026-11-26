@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T16:23:04.240Z",
+  "lastUpdated": "2026-11-26T15:57:00.727Z",
   "games": {
     "holeIt3d": {
       "title": "Hole It 3D!",
@@ -198,7 +198,7 @@
           "store": "google_play",
           "packageId": "com.manabreak.duocrimesquad",
           "installsValue": 10000,
-          "exactInstalls": 11772,
+          "exactInstalls": 11774,
           "downloadsBracket": "10K+"
         }
       ]
